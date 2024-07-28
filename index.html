@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CoinDeCasa - Affordable Housing through Crypto</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Corrected jQuery and Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/Firebase.js" defer type="module"></script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5" style="height: 110px; "
+        id="nav">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">
+                <img class="img-fluidm me-2" src="img/Coin for Website.png" alt="">
+                Coin<span style="font-size: 46px; color: darkgray;">de</span>Casa
+                <p style="margin-top: -18px;font-size: 14px;margin-left: 110px; color: darkgray;">
+                    Revolutionizing Affordable Housing through Crypto
+                </p>
+            </h2>
+        </a>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0" style="margin-right: -18px; position: relative;">
+                <div class="buttons">
+                    <button class="btn btn-primary py-2 px-3 buy-cdc">Buy CDC</button>
+                    <button class="btn btn-primary py-2 px-3 buy-cdc" >Sign in/SignUp</button>
+                </div>
+                <div class="nav-item dropdown" style="position: static;">
+                    <img src="./img/menu.png" alt="menu" style="height: 37px; width: 34px; cursor: pointer;">
+                    <div id="menu" class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton"
+                        style="position: absolute;left: 4px; overflow-y: hidden;">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="#about">About CDC</a>
+                        <a class="dropdown-item" href="#nexus">"nexus" - The Technology</a>
+                        <a class="dropdown-item" href="#coindist">Coin Distrubution</a>
+                        <a class="dropdown-item" href="#roadmap">Roadmap</a>
+                        <a class="dropdown-item" href="#team">Team</a>
+                        <a class="dropdown-item" href="#sale">Sale Countdown</a>
+                        <a class="dropdown-item" href="#faq">FAQs</a>
+                        <a class="dropdown-item" href="#contact">Contact</a>
+
+
+                        <div style="display: flex;" class="dropdown-item">
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+                            <a class="nav-link" href="#"><i class="bi bi-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5" style="margin-top: -25px;">
+        <div class="container py-1">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Invest in the Future Where Everyone Has a Home!</h1>
+                    <p class="animated slideInDown" style="text-align: justify;">Hey There! Welcome to the Coin De Casa
+                        (CDC), where we're reshaping the future of affordable housing through innovative prefab
+                        technology solutions. Our key objective is to make quality housing accessible to all, leveraging
+                        the
+                        efficiency and sustainability of prefabricated construction innovation combined with the power
+                        of blockchain technology.</p>
+                    <p style="text-align: justify;">At CDC, we foresee a world where affordable housing is not just a
+                        dream but a reality for everyone. We believe that by reimagining the way we build and finance
+                        housing, we can create vibrant, inclusive communities that thrive.</p>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div>
+        <!-- About Start -->
+        <div class="container  py-1" id="about">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/3D-Mockup2.jpg" alt=""
+                            style="position: relative;height: 29%;top: 3px;">
+                        <div
+                            style="    position: relative;top: -1px; text-align: justify;font-size: 20px;font-weight: bold;">
+                            <h1 style="text-align: center">Mission</h1>
+                            <p>Disrupt the existing property development, management and rental solution industry by
+                                offering smaller, smarter, greener and exceptionally lavish yet AFFORDABLE living spaces
+                                through crypto via block chain and proprietary prefabricated housing technologies using
+                                PRODUCT INNOVATION & NEW VALUE CREATION </p>
+                            <h1 style="text-align: center">Vision</h1>
+                            <p>With an experience, knowledge, skill and ability to deliver outstanding residential and
+                                commercial premises, we are committed to the vision of producing quality developments
+                                across the world, while aggressively seeking opportunities in core areas of the Property
+                                Development, Management and Rental Solutions through integration of Blockchain and
+                                proprietary construction technologies.</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <p style="text-align: justify;">At CDC, we believe that everyone deserves a place to call
+                                home.
+                                Our goal is to revolutionize the concept of affordable housing by leveraging the power
+                                of
+                                blockchain and cryptocurrency. We aim to provide a sustainable solution to the global
+                                housing crisis, ensuring that housing remains not just a basic necessity, but a
+                                fundamental human right.</p>
+                            <p style="text-align: justify;">Our perspective is to create a world where affordable
+                                housing is
+                                accessible to all, regardless of economic status. We envision a future where housing is
+                                not
+                                just a commodity, but a community-driven asset that empowers individuals and
+                                strengthens communities.</p>
+                            <p style="text-align: justify;">We achieve our vision by investing in affordable housing
+                                assets.
+                                Through our blockchain-based platform, investors can participate in the affordable
+                                housing
+                                market by investing in our crypto currency, which is backed by a portfolio of carefully
+                                selected affordable housing properties constructed with our own prefab technology. We're
+                                revolutionizing the affordable housing sector by using our prefabricated construction
+                                methods. Prefab homes offer a faster, more cost-effective, and eco-friendly alternative
+                                to
+                                traditional construction, making quality housing more accessible to a broader range of
+                                individuals and families.
+                                This innovative approach not only provides investors with a new asset class but also
+                                channels much-needed funding into the affordable housing sector.</p>
+                            <div style="position: relative;top: 73px;">
+                                <p
+                                    style="font-size: 23px; text-align: justify;font-weight: bold;position: relative;top: -73px;">
+                                    Whether you're a seasoned investor or a first-time buyer, CDC offers a new way to
+                                    participate in
+                                    the real estate investment. Join us in revolutionizing affordable housing with
+                                    blockchain technology.</p><br>
+                                <div class="col-12 text-center py-1">
+                                    <button class="btn btn-primary py-2 px-3 buy-cdc"
+                                        style="font-size: 20px; align-items: center;margin-top: -153px;">Buy CDC
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl bg-light pt-5">
+        <div class="container ">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid mb-4" src="img/icon-10.png" alt="">
+                    <h1 class="display-4" data-toggle="counter-up">7,300,000</h1>
+                    <p class="fs-5 text-primary mb-0">Shortage of affordable housing</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                    <h1 class="display-4" data-toggle="counter-up">5.5</h1>
+                    <h1 style="    position: relative;
+                   top: -65px;
+                   right: -56px;
+               ">%</h1>
+                    <p class="fs-5 text-primary mb-0" style="    position: relative;
+                    top: -55px;">Expected Growth Rate through 2027</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                    <h1 class="display-4">
+                        <nobr>$67.17 Billion</nobr>
+                    </h1>
+                    <p class="fs-5 text-primary mb-0">Expected market size by 2027</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Why Us?</h1>
+                <p class="text-primary fs-5 mb-5">
+                    <nobr>The Game-Changer for Affordable Housing through Crypto</nobr>
+                </p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Proprietary Technology</h5>
+                            <p class="whyus_content">Our own proprietary construction technology - "nexus" allows us to
+                                provide economical, top-notch, and customizable housing options to a broad customer base
+                                at an affordable price.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Low Entry Level</h5>
+                            <p class="whyus_content">CDC allows its investors to invest as little as $50, with zero
+                                fees, no commissions or legal charges.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Simplicity</h5>
+                            <p class="whyus_content">Investing in CDC is simpler than setting up a bank account. Enjoy
+                                easy, hassle-free investment in the global affordable housing development opportunity.
+                                Just relax and watch your real estate investment grow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Low Risk</h5>
+                            <p class="whyus_content">Every CDC issued is asset-backed by the properties that CDC
+                                develop and own, protecting CDC holders from any downside. Fully secured investment
+                                powered through BlockChain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">High Growth</h5>
+                            <p class="whyus_content">Your ’CDC’ is secured in global property assets. Exposure to an
+                                $67.17 Billion affordable housing market sector.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">Social Impact</h5>
+                            <p class="whyus_content"> CDC improves the quality of life for individuals and families by
+                                providing stable and secure housing, which is linked to better physical and mental
+                                health outcomes. Additionally, it promotes economic stability and growth by decreasing
+                                spending on housing and more on other necessities or investments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <button class="btn btn-primary py-2 px-5 buy-cdc " style="border-radius: 20px;">Buy CDC</button>
+                    <button class="btn btn-primary py-2 px-5 inverstormodal"style="border-radius: 20px;" >INVESTOR PROSPECTUS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- nexus Start -->
+    <div class="container-xxl bg-light py-5 my-5" id="nexus">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">nexus</h1>
+                <p class="text-primary fs-5 mb-5">Our Proprietary Construction Technology</p>
+            </div>
+            <div class="row g-4">
+                <div>
+                    <p style="text-align: justify;">CDC manufactures affordable prefabricated homes in its own
+                        facilities through its proprietary technology, “nexus”. These facilities are specialized
+                        factories where prefab homes are manufactured in a controlled environment using “nexus”, before
+                        being transported to their final location for assembly. Our facilities are equipped with
+                        advanced machinery and skilled labor to efficiently produce high-quality affordable homes.
+                        The “nexus” process begins with the design phase, where architects and engineers create
+                        customized plans based on the client's specifications. Once the design is finalized, the
+                        manufacturing process begins. This typically involves constructing the various components of the
+                        home, such as walls, roofs and floors in separate sections.</p>
+
+                    <p style="text-align: justify;">Each component is built to exact specifications using precision
+                        machinery, ensuring consistency and quality. Once all the components are completed, they are
+                        transported to the site where they are assembled into a finished home. This assembly process is
+                        quick and efficient, minimizing construction time and costs.
+                        CDC homes built with nexus offer several advantages over traditional construction, including
+                        lower costs, faster build times, and improved quality control. As such, prefabricated house
+                        manufacturing facilities play a crucial role in the modern construction industry, offering a
+                        sustainable and efficient solution to the growing demand for affordable housing.</p>
+                    <div style="display: flex;justify-content: center;">
+                        <img src="./img/tableimage.jpg" alt="" style="margin-left: 5px;">
+                    </div>
+                    <p style="margin-top: 37px;">
+                    <p class="nexus_content">Having a technology like nexus at our disposal provides us a
+                        competitive edge as a supplier focusing on affordable housing, enabling us to offer
+                        cost-effective, high-quality, and customizable housing solutions to a wide range of
+                        customers.</p>
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Cost Efficiency:</span> </nobr>
+                        <p style="margin-left: 54px;">By producing nexus
+                            components in-house, we reduce manufacturing costs compared to outsourcing. This cost
+                            savings can be passed on to customers, making the housing more affordable.</p>
+                    </div>
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Quality Control:</span></nobr>
+                        <p style="margin-left: 46px;">With an in-house
+                            manufacturing facility, we have a greater control over the quality of the materials and
+                            construction processes. This can result in higher-quality housing that meets or exceeds
+                            industry standards.</p>
+                    </div>
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Faster Construction:</span></nobr>
+                        <p style="margin-left: 10px;">"nexus"
+                            components are produced in a controlled environment simultaneously with site preparation,
+                            reducing construction time significantly. This faster construction process is helping us
+                            meet the growing demand for affordable housing more quickly.</p>
+                    </div>
+
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Customization:</span></nobr>
+                        <p style="margin-left: 49px;">Having a
+                            manufacturing facility allows CDC to offer more customization options to customers. This
+                            helps meet the diverse needs of different communities and demographics, making the housing
+                            more attractive and marketable.</p>
+                    </div>
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Sustainability:</span></nobr>
+                        <p style="margin-left: 57px;">Prefabricated
+                            construction is more sustainable than traditional construction methods, as it generates less
+                            waste and incorporates environmentally friendly materials and practices. This appeals to
+                            environmentally conscious customers and helps us meet sustainability goals.</p>
+                    </div>
+                    <div class="nexus_content" style="display: flex;">
+                        <nobr><span class="bold_keypoints">Scalability:</span></nobr>
+                        <p style="margin-left: 81px;"> CDC with its own
+                            manufacturing facility has the ability to scale production up or down based on demand. This
+                            flexibility helps us manage costs and ensure that housing remains affordable even as demand
+                            fluctuates.</p>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex;justify-content: center;">
+                        <img src="./img/tableimag2.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="row g-5 mt-2">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-start">
+                                    <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                                    <div class="ps-4">
+                                        <h5>Assembly Time</h5>
+                                        <h4 style=" text-align: center;" class="mb-3">8-12 Days</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-start">
+                                    <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                                    <div class="ps-4">
+                                        <h5>
+                                            <nobr>Avg. Delivery Time</nobr>
+                                        </h5>
+                                        <h4 style=" text-align: center;" class="mb-3">45 Days</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-start">
+                                    <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                                    <div class="ps-4">
+                                        <h5>
+                                            <nobr>Compared to Traditional Builds</nobr>
+                                        </h5>
+                                        <h4 style=" text-align: center;" class="mb-3">50% Less $$$</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- nexus End -->
+
+
+    <!-- Coin Distrubutiion Start -->
+    <div class="container-xxl py-5" id="coindist">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 500px ;position: relative;z-index: 5;">
+                <h1 class="display-6" style="padding-bottom: 45px;">Coin Distrubution</h1>
+            </div>
+            <div class="fadeInUp" data-wow-delay="0.1s"
+                style="display: flex;justify-content: center;flex-direction: column;">
+                <div style="display:flex ; justify-content: center;">
+                    <img src="./img/Coin Distribution.bmp" style="margin-top: -49px;width: 50%;">
+                    </img>
+                </div>
+                <div>
+                    <div class="row g-5">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-start">
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#4e79a7;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Private Sale</h5>
+                                    </div>
+                                    <span>10% reserved for private sale.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-start">
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#76b7b2;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Public Sale</h5>
+                                    </div>
+                                    <span> 50% - Reserved for the sale to the general public.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-start">
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#59a14f;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Team</h5>
+                                    </div>
+                                    <span>10% - Reserved for the core team.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-start">
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#f28e2c;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Reward</h5>
+                                    </div>
+                                    <span>5% - Reserved for rewards from social media sharing,bonuses and
+                                        bounties.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="d-flex align-items-start">
+
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#e15759;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Locked</h5>
+                                    </div>
+                                    <span>20% - Locked up in a smart contract for a period of 1 year and will be used
+                                        for future token value growth.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="d-flex align-items-start">
+                                <div class="ps-4">
+                                    <div style="display: flex;">
+                                        <div
+                                            style="background-color:#edc949;height:20px;width:20px;margin-right: 10px;">
+                                        </div>
+                                        <h5>Philanthrophy</h5>
+                                    </div>
+                                    <span>5% - Reserved for donation to the housing charities and other
+                                        philanthropy programs.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Coin Distrubution End -->
+
+    <!-- Roadmap Start -->
+    <div class="container-xxl py-5 bg-light" id="roadmap">
+        <div class="container" style="text-align: justify;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Roadmap</h1>
+                <p class="text-primary fs-5 mb-5">We Translate Your Dream Into Reality</p>
+            </div>
+            <div class="owl-carousel roadmap-carousel year wow fadeInUp" data-wow-delay="0.1s">
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2024</h5>
+                    <span>CDC Coin Creation and Project Development</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>May 2024 – Jun 2024</h5>
+                    <span>Develop the concept and whitepaper for CDC, outlining its backing by affordable housing
+                        developments.</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jul 2024 – Sep 2024</h5>
+                    <span>Create CDC, establish a development team</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Oct 2024</h5>
+                    <span>Pre Launch Offering</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Nov 2024 – Dec 2024</h5>
+                    <span>Begin initial discussions with affordable housing projects for backing.</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2025</h5>
+                    <span>Initial Coin Offering (ICO) and Development</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jul 2025</h5>
+                    <span>Launch the ICO to raise funds for the project, with a clear roadmap and timeline for
+                        development.</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Sep 2025 – Dec 2025</h5>
+                    <span>Use funds raised to initiate the development of the first affordable housing project, focusing
+                        on transparency and community engagement.</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2026</h5>
+                    <span>Project Expansion and Partnerships</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jan 2026 – Jul 2026</h5>
+                    <span>Expand the project to additional affordable housing developments, forming partnerships with
+                        developers, governments, and non-profits. </span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Aug 2026 – Dec 2026</h5>
+                    <span>Continue to build the community around CDC, focusing on its use as a means of investment in
+                        affordable housing</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2027</h5>
+                    <span>Regulatory Compliance and Growth</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jan 2027 – Jul 2027</h5>
+                    <span>Ensure compliance with relevant regulations and seek necessary approvals for the projects’
+                        expansion.
+                    </span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Aug 2027 – Dec 2027</h5>
+                    <span>Focus on growth and adoption of CDC, with an emphasis on its stability and utility in the
+                        affordable housing market.</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2028</h5>
+                    <span>Listing on Exchanges</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jan 2028 – Jul 2028</h5>
+                    <span>Prepare for listing on major crypto currency exchanges, meeting their listing requirements and
+                        building liquidity.</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Aug 2028 – Dec 2028</h5>
+                    <span>List CDC on select exchanges, increasing its accessibility and trading volume.</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2029</h5>
+                    <span>Continued Development and Impact</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jan 2029 – Dec 2029</h5>
+                    <span>Focus on continued development of the projects, expanding its reach and impact in the
+                        affordable housing market.</span>
+                </div>
+                <div class="roadmap-item custom-color">
+                    <div class="roadmap-point custom-color"><span class="year"></span></div>
+                    <h5>2030</h5>
+                    <span>Sustainability and Long-Term Vision</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Jan 2030 – Dec 2030</h5>
+                    <span>Develop a long-term sustainability plan for CDC, ensuring its continued success in supporting
+                        affordable housing developments.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Roadmap End -->
+   
+
+    <!---=-team satrt-->
+    <div class="container-xxl" id="team">
+        <div class="container py-5">
+            <div>
+                <div class="section-title">
+                    <h1>Team</h1>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="team-2">
+                            <div class="team-img">
+                                <img src="img/male_vector.jpg" alt="Team Image">
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2>xxx xxxxx</h2>
+                                <h3>CEO &amp; Founder</h3>
+                                <p>Some text goes here that describes about team member</p>
+                                <h4>example@example.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="team-2">
+                            <div class="team-img">
+                                <img src="img/female_vector.jpg" alt="Team Image">
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2>xxx xxxx</h2>
+                                <h3>Art Director</h3>
+                                <p>Some text goes here that describes about team member</p>
+                                <h4>example@example.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="team-2">
+                            <div class="team-img">
+                                <img src="img/male_vector.jpg" alt="Team Image">
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2>xx xxx</h2>
+                                <h3>Developer</h3>
+                                <p>Some text goes here that describes about team member</p>
+                                <h4>example@example.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="team-2">
+                            <div class="team-img">
+                                <img src="img/female_vector.jpg" alt="Team Image">
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2>xxxxx xxx</h2>
+                                <h3>Designer</h3>
+                                <p>Some text goes here that describes about team member</p>
+                                <h4>example@example.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---=-team end-->
+
+
+
+    <!-- Token Sale Start -->
+    <div class="container-xxl bg-light py-5 my-5" id="sale">
+
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Token Sale</h1>
+                <p class="text-primary fs-5 mb-5">Token Sale Countdown</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Days</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Hours</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Minutes</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Seconds</span>
+                    </div>
+                </div>
+                <div class="col-12 text-center py-4">
+                   
+                    <button class="btn btn-primary py-3 px-4 buy-cdc">Buy CDC</button>
+                    
+                </div>
+                <div class="col-12 text-center">
+                    <img class="img-fluid m-1" src="img/payment-1.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-2.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-3.png" alt="" style="width: 50px;">
+                    <img class="img-fluid m-1" src="img/payment-4.png" alt="" style="width: 50px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Token Sale Start -->
+
+
+    <!-- FAQs Start -->
+    <div class="container-xxl py-5" id="faq">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="display-6">FAQs</h1>
+                <p class="text-primary fs-5 mb-5" style="margin-left: 91px;text-align: justify;margin-right: 91px;">
+                    Below are responses to commonly asked questions. For additional inquiries, please contact us at
+                    support@coindecasa.com, and we will endeavor to provide the best answers possible.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="accordionExample" style="text-align: justify;">
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1. What is the purpose of CDC?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The purpose of CDC is to provide a novel approach to funding affordable housing
+                                    developments through the use of crypto currency, aiming to address the global
+                                    housing crisis.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    2. How does CDC works?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CDC is backed by tangible assets, specifically affordable housing developments.
+                                    Investors in the CDC will have a stake in these developments and can benefit from
+                                    their success.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    3. What are the benefits of investing in CDC?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Investing in CDC provides a unique opportunity to support affordable housing
+                                    initiatives while potentially earning returns based on the success of the housing
+                                    developments.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    4. How will the funds raised through this CDC be used?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The funds raised will be used to finance the construction of affordable housing
+                                    units, including land acquisition, construction costs, and infrastructure
+                                    development.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    5. How will the value of CDC be determined?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The value of this CDC will be tied to the value of the underlying affordable housing
+                                    developments, providing a stable and potentially appreciating asset for investors.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    6. How can I participate in CDC?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can participate in CDC by purchasing the coins through our platform or by
+                                    contributing to the development of affordable housing projects that back the CDC.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    7. When can we expect the first affordable housing development to be completed?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The timeline for completion of the first affordable housing development will depend
+                                    on various factors, including funding, regulatory approvals, and construction
+                                    timelines. We will provide updates on the progress of the developments as they
+                                    occur.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    8. What measures are in place to ensure transparency and accountability in CDC
+                                    projects?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We are committed to transparency and accountability in CDC projects and will provide
+                                    regular updates on the progress of the affordable housing developments and how funds
+                                    are being utilized.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingnine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                                    9. Are there any risks associated with investing in CDC?
+                                </button>
+                            </h2>
+                            <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    As with any investment, there are risks involved in investing in CDC, including
+                                    regulatory risks, market risks, and the risk of project delays or cost overruns.
+                                    Investors should carefully consider these risks before investing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingten">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                                    10. How will profits from the affordable housing developments be distributed to
+                                    investors?
+                                </button>
+                            </h2>
+                            <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Profits from the affordable housing developments will be distributed to investors in
+                                    the form of dividends or through other mechanisms specified in the CDC's investment
+                                    terms.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven" aria-expanded="false"
+                                    aria-controls="collapseEleven">
+                                    11. Can I sell my CDC investment before the affordable housing developments are
+                                    started?
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, you can sell your CDC investment at any time, subject to market conditions and
+                                    the availability of buyers. However, selling before the affordable housing
+                                    developments commence may affect the return on your investment.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.0s">
+                            <h2 class="accordion-header" id="headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwelve" aria-expanded="false"
+                                    aria-controls="collapseTwelve">
+                                    12. How would I sell CDC at a later stage and what would be the process?
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Ensuring liquidity is a key focus of our business model, and blockchain tokens excel
+                                    in this regard. We are actively pursuing partnerships with several major
+                                    cryptocurrency exchanges to list our token. The first exchange announcement will be
+                                    made before the token sale concludes. These exchanges boast daily trading volumes
+                                    worth millions of dollars and operate 24/7, providing global investors with highly
+                                    liquid token trading opportunities.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
+                            <h2 class="accordion-header" id="headingThirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
+                                    13. What happens if the affordable housing developments fail to generate sufficient
+                                    returns?
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    If affordable housing developments fail to generate sufficient returns, it may
+                                    impact the value of the CDC. However, the underlying assets of the CDC (i.e., the
+                                    affordable housing developments) will still exist and may continue to generate
+                                    returns over time.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.2s">
+                            <h2 class="accordion-header" id="headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourteen" aria-expanded="false"
+                                    aria-controls="collapseFourteen">
+                                    14. Will there be opportunities for community involvement in the affordable housing
+                                    developments?
+                                </button>
+                            </h2>
+                            <div id="collapseFourteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, there will be opportunities for community involvement in the affordable housing
+                                    developments, including input on design, amenities, and community programs.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.3s">
+                            <h2 class="accordion-header" id="headingFifteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFifteen" aria-expanded="false"
+                                    aria-controls="collapseFifteen">
+                                    15. How will CDC projects impact local communities and the environment?
+                                </button>
+                            </h2>
+                            <div id="collapseFifteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The CDC projects aim to have a positive impact on local communities by providing
+                                    much-needed affordable housing and stimulating economic development. Environmental
+                                    impact will be considered in the design and construction of the affordable housing
+                                    developments.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.4s">
+                            <h2 class="accordion-header" id="headingSixteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSixteen" aria-expanded="false"
+                                    aria-controls="collapseSixteen">
+                                    16. What is the long-term vision for CDC projects?
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The long-term vision for CDC projects is to create a sustainable model for funding
+                                    affordable housing developments globally, addressing the housing crisis and
+                                    improving quality of life for people around the world.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.5s">
+                            <h2 class="accordion-header" id="headingSeventeen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeventeen" aria-expanded="false"
+                                    aria-controls="collapseSeventeen">
+                                    17. Are there any tax implications associated with investing in CDC?
+                                </button>
+                            </h2>
+                            <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Tax implications may vary depending on your jurisdiction and individual
+                                    circumstances. It is advisable to consult with a tax professional to understand the
+                                    specific tax implications of investing in CDC.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.6s">
+                            <h2 class="accordion-header" id="headingEighteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEighteen" aria-expanded="false"
+                                    aria-controls="collapseEighteen">
+                                    18. How will the CDC projects ensure compliance with relevant regulations?
+                                </button>
+                            </h2>
+                            <div id="collapseEighteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The CDC projects will work closely with legal advisors to ensure compliance with
+                                    relevant regulations governing CDC investments and affordable housing developments.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.7s">
+                            <h2 class="accordion-header" id="headingNineteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNineteen" aria-expanded="false"
+                                    aria-controls="collapseNineteen">
+                                    19. Can I use the CDC to directly purchase or rent affordable housing units?
+                                </button>
+                            </h2>
+                            <div id="collapseNineteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    In the future, there may be opportunities to use the CDC to directly purchase or
+                                    rent affordable housing units, depending on the development of the project and
+                                    regulatory considerations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.8s">
+                            <h2 class="accordion-header" id="headingTwenty">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwenty" aria-expanded="false"
+                                    aria-controls="collapseTwenty">
+                                    20. Will there be opportunities for partnerships or collaborations with other
+                                    organizations?
+                                </button>
+                            </h2>
+                            <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, there will be opportunities for partnerships and collaborations with other
+                                    organizations, including government agencies, non-profit organizations, and private
+                                    sector entities, to further the goals of the CDC and affordable housing
+                                    developments.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.9s">
+                            <h2 class="accordion-header" id="headingTwentyOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyOne" aria-expanded="false"
+                                    aria-controls="collapseTwentyOne">
+                                    21. How can I stay updated on the progress of the CDC and affordable housing
+                                    developments?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyOne" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can stay updated on the progress of the CDC and affordable housing developments
+                                    by subscribing to our newsletter, following us on social media, and visiting our
+                                    website for regular updates and announcements.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.0s">
+                            <h2 class="accordion-header" id="headingTwentyTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyTwo" aria-expanded="false"
+                                    aria-controls="collapseTwentyTwo">
+                                    22. How will the individual CDC project address issues of affordability and
+                                    inclusivity in housing?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyTwo" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Each CDC project aims to address affordability and inclusivity in housing by
+                                    focusing on the development of affordable housing units that cater to a diverse
+                                    range of income levels and demographics.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.1s">
+                            <h2 class="accordion-header" id="headingTwentyThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyThree" aria-expanded="false"
+                                    aria-controls="collapseTwentyThree">
+                                    23. What role will technology play in the development and management of affordable
+                                    housing projects?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyThree" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Technology will play a significant role in the development and management of
+                                    affordable housing projects, including the use of our own innovative construction
+                                    technology “nexus”, sustainable building materials, and digital tools for project
+                                    management and community engagement.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.2s">
+                            <h2 class="accordion-header" id="headingTwentyFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyFour" aria-expanded="false"
+                                    aria-controls="collapseTwentyFour">
+                                    24. Will there be opportunities for investors to visit and inspect the affordable
+                                    housing developments?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyFour" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, there may be opportunities for investors to visit and inspect the affordable
+                                    housing developments, subject to safety and security considerations and the stage of
+                                    development of the projects.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.3s">
+                            <h2 class="accordion-header" id="headingTwentyFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyFive" aria-expanded="false"
+                                    aria-controls="collapseTwentyFive">
+                                    25. How will the CDC project address issues of sustainability and resilience in
+                                    affordable housing developments?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyFive" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CDC will prioritize sustainability and resilience in affordable housing developments
+                                    by incorporating green building practices, energy-efficient design, and
+                                    disaster-resistant construction methods.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.4s">
+                            <h2 class="accordion-header" id="headingTwentySix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentySix" aria-expanded="false"
+                                    aria-controls="collapseTwentySix">
+                                    26. What is the process for investing in the CDC?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentySix" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentySix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The process for investing in the CDC is extremely easy. You need to create an
+                                    account, complete a know-your-customer (KYC) verification process, and purchase the
+                                    CDC through our platform or through participation in a fundraising round.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.5s">
+                            <h2 class="accordion-header" id="headingTwentySeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentySeven" aria-expanded="false"
+                                    aria-controls="collapseTwentySeven">
+                                    27. How will the CDC ensure that affordable housing developments are accessible to
+                                    people with disabilities?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentySeven" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentySeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The CDC projects will ensure that affordable housing developments are accessible to
+                                    people with disabilities by adhering to universal design principles and
+                                    incorporating accessibility features such as ramps, wide doorways, and accessible
+                                    bathrooms.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.6s">
+                            <h2 class="accordion-header" id="headingTwentyEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyEight" aria-expanded="false"
+                                    aria-controls="collapseTwentyEight">
+                                    28. What strategies will the CDC projects employ to mitigate risks associated with
+                                    affordable housing developments?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyEight" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyEight" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The CDC projects will employ various strategies to mitigate risks associated with
+                                    affordable housing developments, including thorough due diligence on projects,
+                                    diversification of investments, and proactive risk management practices.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.7s">
+                            <h2 class="accordion-header" id="headingTwentyNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwentyNine" aria-expanded="false"
+                                    aria-controls="collapseTwentyNine">
+                                    29. Will there be opportunities for individuals to contribute their skills or
+                                    services to the affordable housing developments?
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyNine" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyNine" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, there may be opportunities for individuals to contribute their skills or
+                                    services to the affordable housing developments, such as through volunteer programs,
+                                    community partnerships, or skill-sharing initiatives.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.8s">
+                            <h2 class="accordion-header" id="headingThirty">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirty" aria-expanded="false"
+                                    aria-controls="collapseThirty">
+                                    30. How will CDC engage with local communities and stakeholders during the
+                                    development process?
+                                </button>
+                            </h2>
+                            <div id="collapseThirty" class="accordion-collapse collapse" aria-labelledby="headingThirty"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CDC will engage with local communities and stakeholders through outreach programs,
+                                    community meetings, and consultation processes to ensure that the affordable housing
+                                    developments meet the needs and expectations of the community.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="2.9s">
+                            <h2 class="accordion-header" id="headingThirtyOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirtyOne" aria-expanded="false"
+                                    aria-controls="collapseThirtyOne">
+                                    31. What measures will CDC take to ensure the security and integrity of its platform
+                                    and investments?
+                                </button>
+                            </h2>
+                            <div id="collapseThirtyOne" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirtyOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    CDC has implemented robust security measures, including encryption, secure storage
+                                    of funds, and regular security audits, to ensure the security and integrity of its
+                                    platform and investments.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button data-wow-delay="0.1s" id="showMoreBtn" class="btn btn-primary mt-4  fadeInUp">Show
+                        More</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs Start -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" id="contact">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h5 class="mb-4">Newsletter</h5>
+                            <p>Get the latest news and offers directly to your inbox. Enter your email below and click "Sign
+                                Up."</p>
+                            <div class="position-relative">
+                                <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Your email">
+                                <button type="button" id="signupBtn"
+                                    class="btn btn-primary py-3 px-4 position-absolute top-0 end-0 mt-0 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="#nexus">nexus</a>
+                    <a class="btn btn-link" href="#coindist">Coin Distrubution</a>
+                    <a class="btn btn-link" href="#roadmap">Roadmap</a>
+                    <a class="btn btn-link" href="#" id="termsLink">Terms & Conditions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="font-size: 16px;">
+                        &copy; <a href="#" id="openCopyrightModal">CoinDeCasa</a>, All rights reserved.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- thankyou Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="thankYouModalLabel">Thank You for Subscribing!</h5>
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"
+                        style="background-color: transparent; border: none;font-size: 25px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+        </div>
+        <div class="modal-body">
+            <p>You have successfully subscribed to our newsletter. You will receive the latest news and offers
+                directly to your inbox.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary modal-close"
+            style="background-color: #39dbff;border: none; color: white;"
+            data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div>  
+    <!-- Term and condition modal -->
+    <div class="modal fade" id="termandcondition" tabindex="-1" role="dialog" aria-labelledby="termandconditionTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="    overflow-y: scroll; height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termandconditionTitle">Terms & Conditions</h5>
+                    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" style="background-color: transparent; border: none;font-size: 25px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: justify">
+                    <ol>
+                        <li>
+                            <h6>Introduction</h6>
+                            <p>Welcome to coindecasa.com. These terms and conditions outline the rules and regulations for the use of coindecasa.com's website.
+
+                            <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use coindecasa.com if you do not agree to take all of the terms and conditions stated on this page.</p>
+                           <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+                        </li>
+                        <li>
+                            <h6>Cookies</h6>
+                            <p>We employ the use of cookies. By accessing coindecasa.com, you agreed to use cookies in agreement with the coindecasa.com's Privacy Policy.</p>
+                           <p> Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
+                        </li>
+                        <li>
+                            <h6>License</h6>
+                            <p>Unless otherwise stated, coindecasa.com and/or its licensors own the intellectual property rights for all material on coindecasa.com. All intellectual property rights are reserved. You may access this from coindecasa.com for your own personal use subjected to restrictions set in these terms and conditions.</p>
+                        </li>
+                       <li>
+                        <p>You are specifically restricted from all of the following:</p>
+                        <ul>
+                            <li>publishing any coindecasa.com material in any other media;</li>
+                            <li>selling, sublicensing and/or otherwise commercializing any coindecasa.com material;</li>
+                            <li>publicly performing and/or showing any coindecasa.com material;</li>
+                            <li>using this website in any way that is or may be damaging to this website;</li>
+                            <li>using this website in any way that impacts user access to this website;</li>
+                            <li>using this website contrary to applicable laws and regulations, or in any way may cause harm to the website, or to any person or business entity;</li>
+                            <li>engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this website;</li>
+                            <li>using this website to engage in any advertising or marketing.</li>
+                        </ul>
+                        <p>Certain areas of this website are restricted from being accessed by you and coindecasa.com may further restrict access by you to any areas of this website, at any time, in absolute discretion. Any user ID and password you may have for this website are confidential and you must maintain confidentiality as well.</p>
+                       </li>
+                       <li>
+                        <h6>Your Content</h6>
+                        <p>In these Website Standard Terms and Conditions, "Your Content" shall mean any audio, video text, images or other material you choose to display on this website. By displaying Your Content, you grant coindecasa.com a non-exclusive, worldwide irrevocable, sub licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.</p>
+                        <p>Your Content must be your own and must not be invading any third-party's rights. coindecasa.com reserves the right to remove any of Your Content from this website at any time without notice</p>
+                       </li>
+                       <li>
+                        <h6>No warranties</h6>
+                        <p>This website is provided "as is," with all faults, and coindecasa.com express no representations or warranties, of any kind related to this website or the materials contained on this website. Also, nothing contained on this website shall be interpreted as advising you.</p>
+                    </li>
+                    <li>
+                        <h6>Limitation of liability</h6>
+                        <p>In no event shall coindecasa.com, nor any of its officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this website whether such liability is under contract. coindecasa.com, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this website.</p>
+                    </li>
+                    <li>
+                        <h6>Indemnification</h6>
+                        <p>You hereby indemnify to the fullest extent coindecasa.com from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.</p>
+                    </li>
+                    <li>
+                        <h6>Severability</h6>
+                        <p>If any provision of these Terms is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein.</p>
+                    </li>
+                    <li>
+                        <h6>Variation of Terms</h6>
+                        <p>coindecasa.com is permitted to revise these Terms at any time as it sees fit, and by using this website you are expected to review these Terms on a regular basis.</p>
+                    </li>
+                    <li>
+                        <h6>Assignment</h6>
+                        <p>The coindecasa.com is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.</p>
+                    </li>
+                    <li>
+                        <h6>Entire Agreement</h6>
+                        <p>These Terms constitute the entire agreement between coindecasa.com and you in relation to your use of this website, and supersede all prior agreements and understandings.</p>
+                    </li>
+                    <li>
+                        <h6>Governing Law & Jurisdiction</h6>
+                        <p>These Terms will be governed by and interpreted in accordance with the laws of the State where Coin De Casa’s operating company or headquarter is registered, and you submit to the non-exclusive jurisdiction of the same state and federal courts located in state or country where Coin De Casa’s or CDC’s operating company or headquarter is located for any mater or for the resolution of any disputes.</p>
+                    </li>
+                    
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary modal-close" style="background-color: #39dbff;border: none; color: white;" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- investor modal -->
+    <div class="modal fade" id="investormodal" tabindex="-1" role="dialog" aria-labelledby="investormodalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="overflow-y: scroll; height: 85vh;">
+                <div class="modal-header" >
+                    <div style="display: flex; flex-direction: column;">
+                    <h2 class="modal-title" id="copyrightModalTitle">Coin De Casa (CDC)</h2>
+                    <h5 class="modal-title" id="copyrightModalTitle"><u>Revolutionizing the Affordable Housing Investments through Crypto</u></h5>
+                </div>
+                    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" style="background-color: transparent; border: none; font-size: 25px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    <p>Coin De Casa (CDC) is a revolutionary crypto-based asset-backed investment platform designed to address the global affordable housing demand. By leveraging BlockChain technology and smart contracts, CDC provides investors with a unique opportunity to participate in the affordable housing market while generating a sustainable return on investment.</p>
+                    <ol>
+                        <li>
+                            <h6>The Problem:</h6>
+                            <p>The world is facing an escalating affordable housing crisis, with millions of people lacking access to adequate and affordable housing. Traditional financing methods have proven insufficient, leaving a significant gap in the market for innovative solutions.</p>
+                        </li>
+                        <li>
+                            <h6>The Solution:</h6>
+                            <p>CDC offers a solution by developing real estate assets and offering them as investment opportunities on the Blockchain. This allows investors to directly invest in affordable housing projects, providing the capital needed to expand housing options.</p>
+                        </li>
+                        <li>
+                            <h6>Vision and Mission:</h6>
+                            <p>Our vision is to create a world where everyone has access to safe, affordable, and dignified housing. Our mission is to achieve this by leveraging Blockchain technology and cryptocurrency to drive investments in affordable housing developments globally.</p>
+                        </li>
+                        <li>
+                            <h6>How Coin De Casa Works:</h6>
+                            <p>Coin De Casa (CDC) operates on a simple yet powerful principle: investing in affordable housing developments. The process is as follows:</p>
+                            <ul>
+                                <li>Investors purchase Coin De Casa (CDC) tokens through our platform.</li>
+                                <li>Funds raised from token sales are used to invest in affordable housing projects worldwide.</li>
+                                <li>We use our own prefabricated construction technology called “nexus” to construct these housing projects to achieve high quality and affordability.</li>
+                                <li>Profits generated from these investments are distributed back to token holders in the form of dividends or reinvested in new projects.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>“nexus” – The Technology:</h6>
+                            <p>CDC manufactures affordable prefabricated homes in its own facilities through its proprietary technology, “nexus”. These facilities are specialized factories where prefab homes are manufactured in a controlled environment using “nexus”, before being transported to their final location for assembly. Our facilities are equipped with advanced machinery and skilled labor to efficiently produce high-quality affordable homes.</p>
+                            <ul>
+                                <li>Cost Efficiency: By producing nexus components in-house, we reduce manufacturing costs compared to outsourcing. This cost savings can be passed on to customers, making the housing more affordable.</li>
+                                <li>Quality Control: With an in-house manufacturing facility, we have greater control over the quality of the materials and construction processes. This can result in higher-quality housing that meets or exceeds industry standards.</li>
+                                <li>Faster Construction: Nexus components are produced in a controlled environment simultaneously with site preparation, reducing construction time significantly. This faster construction process is helping us meet the growing demand for affordable housing more quickly.</li>
+                                <li>Customization: Having a manufacturing facility allows CDC to offer more customization options to customers. This helps meet the diverse needs of different communities and demographics, making the housing more attractive and marketable.</li>
+                                <li>Sustainability: Prefabricated construction is more sustainable than traditional construction methods, as it generates less waste and incorporates environmentally friendly materials and practices. This appeals to environmentally conscious customers and helps us meet sustainability goals.</li>
+                                <li>Scalability: CDC with its own manufacturing facility has the ability to scale production up or down based on demand. This flexibility helps us manage costs and ensure that housing remains affordable even as demand fluctuates.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>Key Features of Coin De Casa:</h6>
+                            <ul>
+                                <li>Transparency: Blockchain technology ensures that all transactions and investments are transparent and immutable, providing investors with confidence and trust.</li>
+                                <li>Impact Investing: By investing in affordable housing, Coin De Casa generates both financial returns and social impact, creating a win-win situation for investors and communities.</li>
+                                <li>Profit Distribution: Coin De Casa distributes profits from affordable housing developments to token holders, providing them with a steady income stream.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>The Coin De Casa Ecosystem:</h6>
+                            <ul>
+                                <li>Affordable Housing Developments: Investments in affordable housing projects globally.</li>
+                                <li>Coin De Casa Token: The cryptocurrency used for investments and profit distribution.</li>
+                                <li>Community Engagement: Engaging with communities to ensure that projects meet their needs and expectations.</li>
+                                <li>Governance: Token holders have a say in the direction of Coin De Casa through a decentralized governance structure.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>Benefits for Investors:</h6>
+                            <ul>
+                                <li>Financial Returns: Investors can earn attractive returns from investments in affordable housing developments.</li>
+                                <li>Social Impact: Investors contribute to improving the living standards of those in need, creating a positive legacy.</li>
+                                <li>Diversification: Coin De Casa offers a unique opportunity to diversify investment portfolios with a focus on impact investing.</li>
+                            </ul>
+                        </li>
+                        <li>
+                <h6>Market Opportunity:</h6>
+                <p>The global affordable housing market represents a significant opportunity for investors. According to the United Nations, over 1.6 billion people worldwide live in inadequate housing, with the majority residing in developing countries. This presents a vast market for affordable housing developments, with the potential for substantial financial returns.</p>
+            </li>
+            <li>
+                <h6>Impact Investing:</h6>
+                <p>Coin De Casa is committed to impact investing, focusing on projects that not only provide affordable housing but also create sustainable communities. By investing in Coin De Casa, investors can be part of a movement that is driving positive change and improving the lives of millions.</p>
+            </li>
+            <li>
+                <h6>Tokenomics:</h6>
+                <p>Coin De Casa tokens (CDC) are the native cryptocurrency of the Coin De Casa ecosystem. The total supply of CDC tokens is capped to ensure scarcity and value appreciation over time. Token holders will receive dividends from the profits generated by affordable housing projects, providing them with a steady income stream.</p>
+            </li>
+            <li>
+                <h6>Security and Compliance:</h6>
+                <p>Coin De Casa is committed to ensuring the security of its platform and compliance with regulatory requirements. All investments and transactions are conducted using secure blockchain technology, and Coin De Casa complies with relevant laws and regulations in the jurisdictions where it operates.</p>
+            </li>
+            <li>
+                <h6>Partnerships and Collaborations:</h6>
+                <p>Coin De Casa collaborates with governments, non-profit organizations, and other stakeholders to identify and invest in impactful affordable housing projects. These partnerships ensure that Coin De Casa projects are aligned with community needs and priorities.</p>
+            </li>
+            <li>
+                <h6>Token Sale Details:</h6>
+                <p>The Coin De Casa token sale will be conducted in multiple stages, with early investors receiving bonuses and discounts. The funds raised from the token sale will be used to invest in affordable housing projects, ensuring that the Coin De Casa ecosystem is sustainable and profitable for all stakeholders.</p>
+            </li>
+            <li>
+                <h6>Risks and Challenges:</h6>
+                <p>While Coin De Casa offers attractive returns and social impact, it's important to consider the risks and challenges involved. These may include regulatory uncertainties, market fluctuations, and project-specific risks such as construction delays or cost overruns. Investors should conduct thorough due diligence and seek professional advice before investing in Coin De Casa.</p>
+            </li>
+            <li>
+                <h6>Environmental, Social, and Governance (ESG) Factors:</h6>
+                <p>Coin De Casa considers ESG factors in its investment decisions, ensuring that projects are environmentally sustainable, socially responsible, and governed effectively. This approach not only aligns with global sustainability goals but also enhances the long-term viability of investments.</p>
+            </li>
+            <li>
+                <h6>Global Reach and Impact:</h6>
+                <p>Coin De Casa's global reach allows it to invest in affordable housing projects in diverse regions, benefiting communities worldwide. This global impact sets Coin De Casa apart from traditional investment opportunities, offering investors a unique chance to make a difference on a global scale.</p>
+            </li>
+            <li>
+                <h6>Community Engagement and Empowerment:</h6>
+                <p>Coin De Casa believes in engaging with communities to ensure that projects meet their needs and aspirations. By empowering communities to participate in decision-making processes, Coin De Casa fosters a sense of ownership and pride, leading to sustainable development outcomes.</p>
+            </li>
+            <li>
+                <h6>Innovation and Technology:</h6>
+                <p>Coin De Casa leverages innovative technologies such as BlockChain and smart contracts to streamline processes and reduce costs. These technologies not only enhance the efficiency of affordable housing developments but also create new opportunities for growth and innovation within the Coin De Casa ecosystem.</p>
+            </li>
+            <li>
+                <h6>Scalability and Long-Term Sustainability:</h6>
+                <p>Coin De Casa is designed to be scalable, allowing for growth and expansion into new markets and regions over time. This scalability ensures that Coin De Casa can continue to generate profits and social impact for the long term, providing investors with a sustainable investment opportunity.</p>
+            </li>
+            <li>
+                <h6>Transparency and Accountability:</h6>
+                <p>Transparency and accountability are core principles of Coin De Casa. All transactions and investments are recorded on the blockchain, ensuring transparency for investors and stakeholders. Additionally, Coin De Casa is committed to regular reporting and audits to ensure accountability and compliance with regulatory requirements.</p>
+            </li>
+            <li>
+                <h6>Education and Awareness:</h6>
+                <p>Coin De Casa is committed to raising awareness about the global affordable housing crisis and the role that impact investing can play in addressing this challenge. Through educational initiatives and outreach programs, Coin De Casa aims to empower individuals and communities to take action and make a difference.</p>
+            </li>
+            <li>
+                <h6>Access and Inclusivity:</h6>
+                <p>Coin De Casa is accessible to anyone with an internet connection, providing a gateway to impact investing for individuals who may not have access to traditional investment opportunities. This inclusivity ensures that everyone has the opportunity to participate in and benefit from the Coin De Casa ecosystem.</p>
+            </li>
+            <li>
+                <h6>Philanthropic Initiatives:</h6>
+                <p>In addition to its core investment activities, Coin De Casa also engages in philanthropic initiatives to further support affordable housing and community development. These initiatives are funded through a portion of the profits generated by Coin De Casa investments, ensuring a continuous cycle of giving back.</p>
+            </li>
+            <li>
+                <h6>Collaborative Partnerships:</h6>
+                <p>Coin De Casa collaborates with a wide range of partners, including governments, NGOs, and private sector organizations, to maximize its impact and reach. These partnerships enable Coin De Casa to leverage expertise, resources, and networks to achieve its mission more effectively.</p>
+            </li>
+            <li>
+                <h6>Regulatory Compliance and Legal Framework:</h6>
+                <p>Coin De Casa is committed to complying with all relevant laws and regulations in the jurisdictions where it operates. This includes ensuring that its token sale and investment activities adhere to securities regulations and other applicable laws. By prioritizing regulatory compliance, Coin De Casa aims to build trust with investors and stakeholders and create a sustainable operating environment.</p>
+            </li>
+            <li>
+                <h6>Innovation in Financing Models:</h6>
+                <p>Coin De Casa is exploring innovative financing models to further expand its impact in the affordable housing sector. These models may include crowdfunding, peer-to-peer lending, and impact bonds, among others. By leveraging these new financing approaches, Coin De Casa aims to unlock additional capital for affordable housing projects and drive greater social impact.</p>
+            </li>
+            <li>
+                <h6>Impact Measurement and Reporting:</h6>
+                <p>Coin De Casa is committed to measuring and reporting its impact on an ongoing basis. This includes tracking key performance indicators related to affordable housing, such as the number of housing units created, the number of people served, and the overall social and economic impact of its investments. By transparently reporting this information, Coin De Casa aims to demonstrate its commitment to impact investing and accountability to its stakeholders.</p>
+            </li>
+            <li>
+                <h6>Continuous Improvement and Adaptation:</h6>
+                <p>Investing in Coin De Casa is not just about financial returns; it's about making a real difference in the world. Coin De Casa is more than just a cryptocurrency; it's a movement to transform the global affordable housing market. Coin De Casa is at the forefront of a new era in investing, where financial returns and social impact go hand in hand. By investing in Coin De Casa, you're not only investing in affordable housing but also in a brighter future for everyone. By joining us, you're not only investing in affordable housing but also in a brighter future for generations to come. Together, we can create a world where everyone has access to safe, affordable, and dignified housing. Join us today and be part of the change. Together, we can make a real difference in the world.</p>
+                <p>Coin De Casa recognizes that the affordable housing landscape is constantly evolving, and as such, it is committed to continuous improvement and adaptation. This includes staying abreast of emerging trends and best practices in affordable housing, as well as seeking feedback from stakeholders to refine its approach over time. By remaining agile and responsive, Coin De Casa aims to maximize its impact and ensure its long-term sustainability.</p>
+            </li>
+            <li>
+                <h6>Join the Coin De Casa Movement and Help Us in Making a Difference:</h6>
+                <p>CDC presents a compelling opportunity for investors to participate in the affordable housing market while generating a sustainable return on investment. By investing in CDC, you are not only investing in a profitable venture but also contributing to solving one of the most pressing global challenges of our time.
+                <br><br><strong>Disclaimer:</strong> Investing in cryptocurrencies involves risk, including the risk of loss. Coin De Casa tokens should be purchased only after careful consideration of the risks involved.</p>
+            </li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary modal-close" style="background-color: #39dbff; border: none; color: white;" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Term and condition modal -->
+
+    <div class="modal fade" id="copyrightModal" tabindex="-1" role="dialog" aria-labelledby="copyrightModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="overflow-y: scroll; height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="copyrightModalTitle">Copyright Notice</h5>
+                    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" style="background-color: transparent; border: none; font-size: 25px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    <p>Unless otherwise stated, coindecasa.com and/or its licensors own the intellectual property rights in the website and material on the website. All these intellectual property rights are reserved.</p>
+                    <p>The contents of this website, including but not limited to text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, are the property of coindecasa.com, its affiliates, or their respective content suppliers and are protected by international copyright laws. The compilation of all content on this site is the exclusive property of coindecasa.com and protected by international copyright laws.</p>
+                    <p>All software used on this site is the property of coindecasa.com, its affiliates, or their software suppliers and protected by international copyright laws.</p>
+                    <p>The content on this website may not be reproduced, modified, distributed, transmitted, displayed, or performed without the prior written consent of coindecasa.com, except as specifically provided herein.</p>
+                    <p>You may use the content of this website only for the purpose of placing an order on this site and for no other purpose. No materials from this site may be copied, reproduced, modified, republished, uploaded, posted, transmitted, or distributed in any form or by any means without coindecasa.com's prior written permission. All rights not expressly granted herein are reserved. Any unauthorized use of the materials appearing on this site may violate copyright, trademark, and other applicable laws and could result in criminal or civil penalties.</p>
+                    <p>You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.</p>
+                    <p>Any redistribution or reproduction of part or all of the contents in any form is prohibited other than the following:</p>
+                    <ul>
+                        <li>You may print or download to a local hard disk extracts for your personal and non-commercial use only.</li>
+                        <li>You may copy the content to individual third parties for their personal use, but only if you acknowledge the website as the source of the material.</li>
+                    </ul>
+                    <p>You may not, except with our express written permission, distribute or commercially exploit the content. Nor may you transmit it or store it in any other website or other form of electronic retrieval system.</p>
+                    <p>You must not:</p>
+                    <ul>
+                        <li>republish material from this website (including republication on another website);</li>
+                        <li>sell, rent or sub-license material from the website;</li>
+                        <li>show any material from the website in public;</li>
+                        <li>reproduce, duplicate, copy or otherwise exploit material on this website for a commercial purpose;</li>
+                        <li>edit or otherwise modify any material on the website; or</li>
+                        <li>redistribute material from this website except for content specifically and expressly made available for redistribution.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary modal-close" style="background-color: #39dbff; border: none; color: white;" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Login Modals -->
+<div class="modal fade" id="Loginmodal" tabindex="-1" role="dialog" aria-labelledby="LoginModaltitle" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="display: flex;align-items: center;justify-content: center;">
+        <div class="modal-content" style="width: 80%;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="LoginModaltitle">Login</h5>
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" style="background-color: transparent; border: none;font-size: 25px;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group mt-2">
+                        <input type="email" class="form-control" id="username_login" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="mt-2">
+                        <button type="submit" id="login-btn" style="background-color: #39dbff;border: none; color: white; width: 100%;border-radius: 78px;" class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="form-group mt-3" style="margin-bottom:-10px;display: flex;gap: 8vw;">
+                        <div>
+                            <input type="checkbox"> Remember me
+                        </div>
+                        <div>
+                            <a style="color:#16D5FF">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3 " style="margin-bottom:-10px">
+                        <nobr>
+                            <p>Create a new account? <a href="#" id="signupnLink">Click here</a></p>
+                        </nobr>
+                        <p id="error-message-Login"></p>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer" style="padding: 0;">
+                <div class="soslogin">
+                    <p>or login with</p>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <button id="google-login-btn" class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-google"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Signup Modals -->
+<div class="modal fade" id="signupnmodall" tabindex="-1" role="dialog" aria-labelledby="SignupModaltitle"`
+    aria-hidden="true">
+    <div class="modal-dialog" role="document" style="display: flex;align-items: center;justify-content: center;">
+        <div class="modal-content" style="width: 80%;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="SignupModaltitle">Sign Up</h5>
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"
+                    style="background-color: transparent; border: none;font-size: 25px;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="signup-form">
+                    <div class="form-group mt-2">
+                        <input type="email" class="form-control" id="username_s" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="password" class="form-control" id="password_s" placeholder="Password" required>
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="password" class="form-control" id="confirm-password_s" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="mt-2">
+                        <button id="signup-form" type="submit" style="background-color: #39dbff;border: none; color: white; width: 100%;border-radius: 78px;" class="btn btn-primary">SignUp</button>
+                    </div>
+            
+                    <div class="form-group mt-3" style="margin-bottom:-10px">
+                        <p>Already have an account? <a href="#" id="loginLinkToggle">Click here</a></p>
+                    </div>
+                    <p id="error-message-signUp"></p>
+            
+                </form>
+            </div>
+            
+            <div class="modal-footer" style="padding: 0;">
+                <div class="soslogin">
+                    <p>or SignUp with</p>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <button id="google-Signup-btn" class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-google"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
